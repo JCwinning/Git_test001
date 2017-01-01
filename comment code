@@ -1,0 +1,15 @@
+
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+
+git init
+
+touch README
+
+git add README
+
+git commit -m 'first commit'
+
+git remote add origin https://github.com/username/Hello-World.git
+
+git push origin master
